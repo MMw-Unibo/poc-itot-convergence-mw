@@ -1,0 +1,34 @@
+{
+  "transport_profile": "http://opcfoundation.org/UA-Profile/Transport/pubsub-udp-uadp",
+  "network_address_url": "opc.udp://224.0.0.18:4840/",
+  "publishers": [
+    {
+      "data_group_name": "datagroup-1",
+      "writer_group_id": 1,
+      "registers": [
+        "T_OVEN1",
+        "T_OVEN2"
+      ],
+      "interval": 2500
+    },
+    {
+      "data_group_name": "datagroup-2",
+      "writer_group_id": 2,
+      "registers": [
+        "V_DUR_CYCLE1",
+        "T_VALUE_INJECTOR"
+      ],
+      "interval": 1250
+    },
+    {
+      "data_group_name": "datagroup-3",
+      "writer_group_id": 3,
+      "registers": [
+        "T_COLD1",
+        "T_MANUAL1",
+        "V_DUR_CYCLE2"
+      ],
+      "interval": 5000
+    }
+  ]
+}

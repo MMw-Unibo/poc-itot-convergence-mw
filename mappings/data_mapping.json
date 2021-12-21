@@ -1,0 +1,61 @@
+{
+  "TMP_OVEN1": {
+    "register_type": "concat_register",
+    "register_index": [
+      1,
+      2
+    ],
+    "unit": "celsius",
+    "description": "Temperature oven 1",
+    "scaling": 100,
+    "expected_type": "int"
+  },
+  "TMP_OVEN2": {
+    "register_type": "single_register",
+    "register_index": 3,
+    "unit": "celsius",
+    "description": "Temperature oven 2",
+    "scaling": 100,
+    "expected_type": "short"
+  },
+  "V_DUR_CYCLE1": {
+    "register_type": "single_register",
+    "register_index": 4,
+    "unit": "seconds",
+    "description": "Duration of cycle 1",
+    "scaling": 100,
+    "expected_type": "short"
+  },
+  "T_VALUE_INJECTOR": {
+    "register_type": "single_register",
+    "register_index": 5,
+    "unit": "seconds",
+    "description": "Time of injection",
+    "scaling": 100,
+    "expected_type": "short"
+  },
+  "TMP_COLD1": {
+    "register_type": "single_register",
+    "register_index": 6,
+    "unit": "celsius",
+    "description": "Temperature cold 1",
+    "scaling": 100,
+    "expected_type": "short"
+  },
+  "T_MANUAL1": {
+    "register_type": "single_register",
+    "register_index": 7,
+    "unit": "seconds",
+    "description": "Time manual operation 1",
+    "scaling": 100,
+    "expected_type": "short"
+  },
+  "V_DUR_CYCLE2": {
+    "register_type": "single_register",
+    "register_index": 8,
+    "unit": "seconds",
+    "description": "Duration of cycle 2",
+    "scaling": 100,
+    "expected_type": "short"
+  }
+}
